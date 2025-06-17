@@ -1,0 +1,73 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Build directory
+/target/
+
+# Maven
+.mvn/
+!**/src/main/resources/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradle/
+gradle-app.setting
+gradle-app.properties
+
+# Spring Boot Dev Tools
+.spring-boot-devtools.properties
+
+# -----------------------
+# NODE / REACT
+# -----------------------
+
+# Node modules
+**/node_modules/
+
+# Build output
+**/build/
+**/dist/
+
+# NPM/Yarn/PNPM lockfiles (optional, if you use one consistently)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Testing coverage
+coverage/
+
+# Env variables
+**/.env
+**/.env.*
+
+# React cache
+.npm/
+.cache/
+.eslintcache
+
+# -----------------------
+# IDE / OS-specific
+# -----------------------
+
+# IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
